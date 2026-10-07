@@ -1,0 +1,1410 @@
+[
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/services",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/works",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/contact",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/image-generator",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/video-generator",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/campaign-maker",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/storyteller",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/digital-twin",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/avatar",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/detail-design",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/secure-chat",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/bexlogix",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/blog",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/blog/what-is-a-brand-brain",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/blog/how-ai-changes-brand-strategy-workflows",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/blog/from-brand-guidelines-to-living-design-systems",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/test",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agent-store",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/pricing",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/authentication",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/form",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/services",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/works",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/contact",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/image-generator",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/video-generator",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/campaign-maker",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/storyteller",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/digital-twin",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/avatar",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/detail-design",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/secure-chat",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/bexlogix",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/blog",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/blog/what-is-a-brand-brain",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/blog/how-ai-changes-brand-strategy-workflows",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/blog/from-brand-guidelines-to-living-design-systems",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/test",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agent-store",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/pricing",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/authentication",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/form",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/services",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/works",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/contact",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/image-generator",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/video-generator",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/campaign-maker",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/storyteller",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/digital-twin",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/avatar",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/detail-design",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/secure-chat",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/bexlogix",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/blog",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/blog/what-is-a-brand-brain",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/blog/how-ai-changes-brand-strategy-workflows",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/blog/from-brand-guidelines-to-living-design-systems",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/test",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agent-store",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/pricing",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/authentication",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/form",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/services",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/works",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/contact",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/image-generator",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/video-generator",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/campaign-maker",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/storyteller",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/digital-twin",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/avatar",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/detail-design",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/secure-chat",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/bexlogix",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/blog",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/blog/what-is-a-brand-brain",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/blog/how-ai-changes-brand-strategy-workflows",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/blog/from-brand-guidelines-to-living-design-systems",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/test",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agent-store",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/pricing",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/authentication",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/form",
+    "width": 320
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/services",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/works",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/contact",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/image-generator",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/video-generator",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/campaign-maker",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/storyteller",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/digital-twin",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/avatar",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/detail-design",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/secure-chat",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agents/bexlogix",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/blog",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/blog/what-is-a-brand-brain",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/blog/how-ai-changes-brand-strategy-workflows",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/blog/from-brand-guidelines-to-living-design-systems",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/test",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/agent-store",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/pricing",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/authentication",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "en",
+    "overflow": false,
+    "path": "/form",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/services",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/works",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/contact",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/image-generator",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/video-generator",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/campaign-maker",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/storyteller",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/digital-twin",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/avatar",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/detail-design",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/secure-chat",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agents/bexlogix",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/blog",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/blog/what-is-a-brand-brain",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/blog/how-ai-changes-brand-strategy-workflows",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/blog/from-brand-guidelines-to-living-design-systems",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/test",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/agent-store",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/pricing",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/authentication",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "fa",
+    "overflow": false,
+    "path": "/fa/form",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/services",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/works",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/contact",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/image-generator",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/video-generator",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/campaign-maker",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/storyteller",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/digital-twin",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/avatar",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/detail-design",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/secure-chat",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agents/bexlogix",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/blog",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/blog/what-is-a-brand-brain",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/blog/how-ai-changes-brand-strategy-workflows",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/blog/from-brand-guidelines-to-living-design-systems",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/test",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/agent-store",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/pricing",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/authentication",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "rtl",
+    "lang": "ar",
+    "overflow": false,
+    "path": "/ar/form",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/services",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/works",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/contact",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/image-generator",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/video-generator",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/campaign-maker",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/storyteller",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/digital-twin",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/avatar",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/detail-design",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/secure-chat",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agents/bexlogix",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/blog",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/blog/what-is-a-brand-brain",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/blog/how-ai-changes-brand-strategy-workflows",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/blog/from-brand-guidelines-to-living-design-systems",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/test",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/agent-store",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/pricing",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/authentication",
+    "width": 1440
+  },
+  {
+    "broken": 0,
+    "dir": "ltr",
+    "lang": "tr",
+    "overflow": false,
+    "path": "/tr/form",
+    "width": 1440
+  }
+]

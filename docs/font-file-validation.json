@@ -1,0 +1,71 @@
+[
+  {
+    "file": "estedad-variable.woff2",
+    "family": "Estedad",
+    "weight": 400,
+    "axes": [
+      [
+        "wght",
+        100.0,
+        900.0
+      ]
+    ],
+    "missing": []
+  },
+  {
+    "file": "IBMPlexSansArabic-Bold.woff2",
+    "family": "IBM Plex Sans Arabic",
+    "weight": 700,
+    "axes": [],
+    "missing": []
+  },
+  {
+    "file": "IBMPlexSansArabic-ExtraLight.woff2",
+    "family": "IBM Plex Sans Arabic ExtLt",
+    "weight": 200,
+    "axes": [],
+    "missing": []
+  },
+  {
+    "file": "IBMPlexSansArabic-Light.woff2",
+    "family": "IBM Plex Sans Arabic Light",
+    "weight": 300,
+    "axes": [],
+    "missing": []
+  },
+  {
+    "file": "IBMPlexSansArabic-Medium.woff2",
+    "family": "IBM Plex Sans Arabic Medm",
+    "weight": 500,
+    "axes": [],
+    "missing": []
+  },
+  {
+    "file": "IBMPlexSansArabic-Regular.woff2",
+    "family": "IBM Plex Sans Arabic",
+    "weight": 400,
+    "axes": [],
+    "missing": []
+  },
+  {
+    "file": "IBMPlexSansArabic-SemiBold.woff2",
+    "family": "IBM Plex Sans Arabic SmBld",
+    "weight": 600,
+    "axes": [],
+    "missing": []
+  },
+  {
+    "file": "IBMPlexSansArabic-Text.woff2",
+    "family": "IBM Plex Sans Arabic Text",
+    "weight": 450,
+    "axes": [],
+    "missing": []
+  },
+  {
+    "file": "IBMPlexSansArabic-Thin.woff2",
+    "family": "IBM Plex Sans Arabic Thin",
+    "weight": 100,
+    "axes": [],
+    "missing": []
+  }
+]

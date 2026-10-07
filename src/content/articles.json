@@ -1,0 +1,53 @@
+[
+  {
+    "id": "t8VSbbzrC",
+    "slug": "what-is-a-brand-brain",
+    "draft": false,
+    "title": "What Is a Brand Brain?",
+    "bodyHtml": "<h2 dir=\"auto\">Why it matters</h2><p dir=\"auto\">A Brand Brain is the shared context layer behind a modern brand. It holds the strategic choices, identity rules, tone, audience knowledge, and decision logic that teams rely on every day.</p><p dir=\"auto\">Instead of treating brand strategy as a finished document, a Brand Brain turns it into an operating system: searchable, reusable, and ready to guide both people and AI tools.</p><ul dir=\"auto\"><li data-preset-tag=\"p\"><p>It keeps strategy close to execution.</p></li><li data-preset-tag=\"p\"><p>It gives AI tools the right brand context.</p></li><li data-preset-tag=\"p\"><p>It helps teams make consistent decisions faster.</p></li></ul>",
+    "extraHtml": "",
+    "summary": "A practical look at how a Brand Brain turns strategy, identity, and AI context into a living operating system for brand teams.",
+    "image": "/assets/53d2453945-egQamt6RZjRI4LWWuLrTSuAic8Q.png",
+    "date": "2026-06-27",
+    "author": "Bextudio",
+    "readTime": "4 min read",
+    "featured": true,
+    "seoTitle": "What Is a Brand Brain? | Bextudio Blog",
+    "seoDescription": "Learn how a Brand Brain helps teams make faster, more consistent brand decisions across strategy, design, content, and AI workflows.",
+    "socialImage": "/assets/53d2453945-egQamt6RZjRI4LWWuLrTSuAic8Q.png"
+  },
+  {
+    "id": "o3QlaJVod",
+    "slug": "how-ai-changes-brand-strategy-workflows",
+    "draft": false,
+    "title": "How AI Changes Brand Strategy Workflows",
+    "bodyHtml": "<h2 dir=\"auto\">From static decks to living workflows</h2><p dir=\"auto\">AI does not replace brand strategy. It changes the pace and format of the work. Research can be synthesized faster, patterns can be tested earlier, and messaging systems can move from one-off copy into repeatable workflows.</p><p dir=\"auto\">The shift is from static deliverables to living systems that help teams ask better questions and make clearer decisions.</p><ul dir=\"auto\"><li data-preset-tag=\"p\"><p>Research becomes faster to compare and summarize.</p></li><li data-preset-tag=\"p\"><p>Positioning can be pressure-tested across audiences.</p></li><li data-preset-tag=\"p\"><p>Messaging systems can be reused across channels.</p></li></ul>",
+    "extraHtml": "",
+    "summary": "How AI shifts brand strategy from static documentation into faster research, sharper decisions, and repeatable brand operating workflows.",
+    "image": "/assets/3a93c3c55c-HNV06ejl2zviflql3W2W6nM573c.png",
+    "date": "2026-06-20",
+    "author": "Bextudio",
+    "readTime": "5 min read",
+    "featured": false,
+    "seoTitle": "How AI Changes Brand Strategy Workflows | Bextudio Blog",
+    "seoDescription": "Explore how AI changes research, positioning, messaging, and execution workflows for modern brand strategy teams.",
+    "socialImage": "/assets/3a93c3c55c-HNV06ejl2zviflql3W2W6nM573c.png"
+  },
+  {
+    "id": "rI_aSdWwE",
+    "slug": "from-brand-guidelines-to-living-design-systems",
+    "draft": false,
+    "title": "From Brand Guidelines to Living Design Systems",
+    "bodyHtml": "<h2 dir=\"auto\">A system people can actually use</h2><p dir=\"auto\">Traditional guidelines are useful references, but they often sit far away from the places where brand decisions happen. A living design system brings the rules, examples, assets, and patterns closer to the work.</p><p dir=\"auto\">When the system is practical, teams do not need to interpret the brand from scratch every time. They can build from a shared foundation and still leave room for craft.</p><ul dir=\"auto\"><li data-preset-tag=\"p\"><p>Rules become reusable patterns.</p></li><li data-preset-tag=\"p\"><p>Assets stay connected to real workflows.</p></li><li data-preset-tag=\"p\"><p>Teams scale consistency without slowing down.</p></li></ul>",
+    "extraHtml": "",
+    "summary": "Why modern brands are moving from static guideline PDFs toward living design systems that support teams across every touchpoint.",
+    "image": "/assets/e85fec56e8-UsmiVubcqaTKuqfWKWDIt3cuGDk.png",
+    "date": "2026-06-13",
+    "author": "Bextudio",
+    "readTime": "4 min read",
+    "featured": false,
+    "seoTitle": "From Brand Guidelines to Living Design Systems | Bextudio Blog",
+    "seoDescription": "Learn how living design systems help brands scale identity, content, and product experiences with more consistency.",
+    "socialImage": "/assets/e85fec56e8-UsmiVubcqaTKuqfWKWDIt3cuGDk.png"
+  }
+]

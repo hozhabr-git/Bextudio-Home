@@ -1,0 +1,25 @@
+import { useId, useRef, useEffect, type ReactNode, type ButtonHTMLAttributes, type AnchorHTMLAttributes, type InputHTMLAttributes, type TextareaHTMLAttributes, type HTMLAttributes } from 'react';
+import './components.css';
+
+export type ButtonVariant='primary'|'secondary'|'ghost'|'danger';
+const buttonClass=(variant:ButtonVariant,size:'sm'|'md'|'lg',className='')=>`ds-button ds-button-${variant} ds-button-${size} ${className}`;
+export function Button({variant='primary',size='md',loading=false,className,children,disabled,...props}:ButtonHTMLAttributes<HTMLButtonElement>&{variant?:ButtonVariant;size?:'sm'|'md'|'lg';loading?:boolean}) {
+  return <button {...props} disabled={disabled||loading} aria-busy={loading||undefined} className={buttonClass(variant,size,className)}>{loading&&<span className="ds-spinner" aria-hidden="true"/>}{children}</button>;
+}
+export function ButtonLink({variant='primary',size='md',className,...props}:AnchorHTMLAttributes<HTMLAnchorElement>&{variant?:ButtonVariant;size?:'sm'|'md'|'lg'}) {return <a {...props} className={buttonClass(variant,size,className)}/>;}
+export function Field({label,hint,error,children,required}: {label:string;hint?:string;error?:string;children:ReactNode;required?:boolean}) {return <div className="ds-field"><div className="ds-field-label">{label}{required&&<span aria-hidden="true"> *</span>}</div>{children}{hint&&!error&&<small>{hint}</small>}{error&&<small className="ds-field-error" role="alert">{error}</small>}</div>;}
+export function Input({label,hint,error,id,...props}:InputHTMLAttributes<HTMLInputElement>&{label:string;hint?:string;error?:string}) {const generated=useId();const fieldId=id||generated;return <label className="ds-field" htmlFor={fieldId}><span className="ds-field-label">{label}{props.required&&' *'}</span><input dir="auto" {...props} id={fieldId} className={`ds-input ${props.className||''}`} aria-invalid={!!error} aria-describedby={hint||error?fieldId+'-help':undefined}/>{(hint||error)&&<small id={fieldId+'-help'} className={error?'ds-field-error':''}>{error||hint}</small>}</label>;}
+export function Textarea({label,hint,error,id,...props}:TextareaHTMLAttributes<HTMLTextAreaElement>&{label:string;hint?:string;error?:string}) {const generated=useId();const fieldId=id||generated;return <label className="ds-field" htmlFor={fieldId}><span className="ds-field-label">{label}</span><textarea dir="auto" {...props} id={fieldId} className={`ds-input ds-textarea ${props.className||''}`} aria-invalid={!!error} aria-describedby={hint||error?fieldId+'-help':undefined}/>{(hint||error)&&<small id={fieldId+'-help'} className={error?'ds-field-error':''}>{error||hint}</small>}</label>;}
+export function Card({tone='default',className='',...props}:HTMLAttributes<HTMLElement>&{tone?:'default'|'muted'|'glass'}) {return <article {...props} className={`ds-card ds-card-${tone} ${className}`}/>;}
+export function Badge({tone='brand',className='',...props}:HTMLAttributes<HTMLSpanElement>&{tone?:'brand'|'neutral'|'success'|'warning'|'danger'}) {return <span {...props} className={`ds-badge ds-badge-${tone} ${className}`}/>;}
+export function Stack({gap=24,direction='column',className='',...props}:HTMLAttributes<HTMLDivElement>&{gap?:8|12|16|24|32|48;direction?:'row'|'column'}) {return <div {...props} className={`ds-stack ${className}`} style={{display:'flex',flexDirection:direction,gap:`var(--space-${gap})`,...props.style}}/>;}
+export function Container({className='',...props}:HTMLAttributes<HTMLDivElement>) {return <div {...props} className={`ds-container ${className}`}/>;}
+export function Accordion({title,children}: {title:string;children:ReactNode}) {return <details className="ds-accordion"><summary>{title}</summary><div>{children}</div></details>;}
+export function Dialog({open,onClose,title,children}: {open:boolean;onClose:()=>void;title:string;children:ReactNode}) {
+  const ref=useRef<HTMLDialogElement>(null),id=useId();
+  useEffect(()=>{const node=ref.current;if(open&&!node?.open)node?.showModal();else if(!open&&node?.open)node.close();},[open]);
+  return <dialog ref={ref} className="ds-dialog" aria-labelledby={id} onCancel={onClose} onClick={event=>{if(event.target===event.currentTarget)onClose();}}><div className="ds-dialog-heading"><h2 id={id}>{title}</h2><Button variant="ghost" aria-label="Close dialog" onClick={onClose}>×</Button></div>{children}</dialog>;
+}
+export function Tabs({items,value,onChange,label='Categories'}:{items:{id:string;label:string}[];value:string;onChange:(value:string)=>void;label?:string}) {
+  return <div className="ds-tabs" role="tablist" aria-label={label}>{items.map((item,index)=><button key={item.id} role="tab" type="button" aria-selected={value===item.id} tabIndex={value===item.id?0:-1} onClick={()=>onChange(item.id)} onKeyDown={event=>{const delta=event.key==='ArrowRight'?1:event.key==='ArrowLeft'?-1:0;if(delta){event.preventDefault();const next=(index+delta+items.length)%items.length;onChange(items[next].id);(event.currentTarget.parentElement?.children[next] as HTMLButtonElement)?.focus();}}}>{item.label}</button>)}</div>;
+}

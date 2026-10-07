@@ -1,0 +1,71 @@
+{
+  "retrievedAt": "2026-10-05",
+  "sources": [
+    {
+      "file": "IBMPlexSansArabic-Thin.woff2",
+      "url": "https://raw.githubusercontent.com/IBM/plex/master/packages/plex-sans-arabic/fonts/complete/woff2/IBMPlexSansArabic-Thin.woff2",
+      "bytes": 73424,
+      "sha256": "955e41abde689c41712340810cf7b62fa8bf3a2eb727babc796f38178b536125"
+    },
+    {
+      "file": "IBMPlexSansArabic-ExtraLight.woff2",
+      "url": "https://raw.githubusercontent.com/IBM/plex/master/packages/plex-sans-arabic/fonts/complete/woff2/IBMPlexSansArabic-ExtraLight.woff2",
+      "bytes": 76216,
+      "sha256": "91e24c2256d7cde77ae76da92e4f5cb58ef9dfa32d47e8cfadd8013d19b9796f"
+    },
+    {
+      "file": "IBMPlexSansArabic-Light.woff2",
+      "url": "https://raw.githubusercontent.com/IBM/plex/master/packages/plex-sans-arabic/fonts/complete/woff2/IBMPlexSansArabic-Light.woff2",
+      "bytes": 75340,
+      "sha256": "a9f0b2eda9dda69757567065818a78dd2c578866ca6f7ed45089f8ca532a8a4d"
+    },
+    {
+      "file": "IBMPlexSansArabic-Regular.woff2",
+      "url": "https://raw.githubusercontent.com/IBM/plex/master/packages/plex-sans-arabic/fonts/complete/woff2/IBMPlexSansArabic-Regular.woff2",
+      "bytes": 71904,
+      "sha256": "74112e1b7bf2e2c547989a4e947a60cba6cd1f9156e0065670134636e717199d"
+    },
+    {
+      "file": "IBMPlexSansArabic-Text.woff2",
+      "url": "https://raw.githubusercontent.com/IBM/plex/master/packages/plex-sans-arabic/fonts/complete/woff2/IBMPlexSansArabic-Text.woff2",
+      "bytes": 76664,
+      "sha256": "0d91b379d57d6d88e33c2acd9f7a0b0083b6929467070cc577342b8d9febf470"
+    },
+    {
+      "file": "IBMPlexSansArabic-Medium.woff2",
+      "url": "https://raw.githubusercontent.com/IBM/plex/master/packages/plex-sans-arabic/fonts/complete/woff2/IBMPlexSansArabic-Medium.woff2",
+      "bytes": 75936,
+      "sha256": "c72f6986f50ded745d06e71e508096209c52a55a6b3a81029954e33c52ba1dd2"
+    },
+    {
+      "file": "IBMPlexSansArabic-SemiBold.woff2",
+      "url": "https://raw.githubusercontent.com/IBM/plex/master/packages/plex-sans-arabic/fonts/complete/woff2/IBMPlexSansArabic-SemiBold.woff2",
+      "bytes": 76408,
+      "sha256": "869b2acd0a9660607a2025f0fe1c640110bf23d33417509328f07722922b8063"
+    },
+    {
+      "file": "IBMPlexSansArabic-Bold.woff2",
+      "url": "https://raw.githubusercontent.com/IBM/plex/master/packages/plex-sans-arabic/fonts/complete/woff2/IBMPlexSansArabic-Bold.woff2",
+      "bytes": 73788,
+      "sha256": "db6650a05969c144ab5ab9bb6c3beca6ca4dbb3537bb5f2311c878dd293875b4"
+    },
+    {
+      "file": "IBM-Plex-Sans-Arabic-OFL.txt",
+      "url": "https://raw.githubusercontent.com/IBM/plex/master/packages/plex-sans-arabic/LICENSE.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "file": "estedad-variable.woff2",
+      "url": "https://raw.githubusercontent.com/aminabedi68/Estedad/master/fonts/webfonts/Estedad%5Bwght%5D.woff2",
+      "bytes": 128304,
+      "sha256": "18a2278ad5c9c2f60e034270ea2d5856d04c4e984e47c65483aa63b41e3c5a1e"
+    },
+    {
+      "file": "Estedad-OFL.txt",
+      "url": "https://raw.githubusercontent.com/aminabedi68/Estedad/master/OFL.txt",
+      "bytes": 4388,
+      "sha256": "0417da48fc44780476e074f02f8400028ee704b3e222be5855fa6d960b9200ca"
+    }
+  ]
+}

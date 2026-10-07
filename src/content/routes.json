@@ -1,0 +1,110 @@
+[
+  {
+    "path": "/",
+    "module": "Home",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/services",
+    "module": "Services",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/works",
+    "module": "Works",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/contact",
+    "module": "Contact",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/agents/image-generator",
+    "module": "AgentsImagegenerator",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/agents/video-generator",
+    "module": "AgentsVideogenerator",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/agents/campaign-maker",
+    "module": "AgentsCampaignmaker",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/agents/storyteller",
+    "module": "AgentsStoryteller",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/agents/avatar",
+    "module": "AgentsAvatar",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/agents/detail-design",
+    "module": "AgentsDetaildesign",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/agents/secure-chat",
+    "module": "AgentsSecurechat",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/agents/bexlogix",
+    "module": "AgentsBexlogix",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/agents/digital-twin",
+    "module": "AgentsDigitaltwin",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/blog",
+    "module": "Blog",
+    "title": "Blog | Bextudio",
+    "description": "Insights on brand intelligence, strategy, design systems, and AI-powered brand building."
+  },
+  {
+    "path": "/test",
+    "module": "Test",
+    "title": "Bextudio",
+    "description": "Bextudio builds AI-powered brand systems, websites, and digital products that help businesses grow with sharper strategy, design, and automation."
+  },
+  {
+    "path": "/blog/what-is-a-brand-brain",
+    "module": "BlogWhatisabrandbrain",
+    "title": "What Is a Brand Brain? | Bextudio Blog",
+    "description": "Learn how a Brand Brain helps teams make faster, more consistent brand decisions across strategy, design, content, and AI workflows."
+  },
+  {
+    "path": "/blog/how-ai-changes-brand-strategy-workflows",
+    "module": "BlogHowaichangesbrandstrategyworkflows",
+    "title": "How AI Changes Brand Strategy Workflows | Bextudio Blog",
+    "description": "Explore how AI changes research, positioning, messaging, and execution workflows for modern brand strategy teams."
+  },
+  {
+    "path": "/blog/from-brand-guidelines-to-living-design-systems",
+    "module": "BlogFrombrandguidelinestolivingdesignsystems",
+    "title": "From Brand Guidelines to Living Design Systems | Bextudio Blog",
+    "description": "Learn how living design systems help brands scale identity, content, and product experiences with more consistency."
+  }
+]

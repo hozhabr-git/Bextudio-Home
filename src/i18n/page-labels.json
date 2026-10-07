@@ -1,0 +1,23 @@
+{
+  "/":"Bextudio",
+  "/services":"Services",
+  "/works":"Projects",
+  "/contact":"Contact",
+  "/agent-store":"Agent Store",
+  "/pricing":"Pricing",
+  "/authentication":"Sign In",
+  "/blog":"Bextudio Journal",
+  "/agents/image-generator":"Image Generator",
+  "/agents/video-generator":"Video Generator",
+  "/agents/campaign-maker":"Campaign Maker",
+  "/agents/storyteller":"Story Teller",
+  "/agents/avatar":"Avatar",
+  "/agents/detail-design":"Detail Design",
+  "/agents/secure-chat":"Secure chat",
+  "/agents/bexlogix":"BexLogix",
+  "/agents/digital-twin":"Brand Digital Twin",
+  "/admin":"Site administration",
+  "/design-system":"Design system",
+  "/form":"Bextudio",
+  "/test":"Bextudio"
+}

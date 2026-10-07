@@ -1,0 +1,558 @@
+import {AgentMessage} from '../i18n/Locale';
+import * as React from "react"
+import { unlockAgent } from "./access"
+
+const ACCENT = "#22ccee"
+const ACCENT_ON_LIGHT = "#0e7490"
+
+const HELIO_EDGE_ORIGIN = "/api/providers/helio"
+const CHAT_URL = `${HELIO_EDGE_ORIGIN}/api/storyteller/api/chat`
+
+const OPTIONS = ["Brand Language", "Language Style"] as const
+
+interface Message {
+    role: "user" | "assistant"
+    content: string
+}
+
+function parseBackendError(status: number, bodyText: string): string {
+    const fb = `Service failed with status ${status}.`
+    const t = (bodyText || "").trim()
+
+    if (!t) return fb
+
+    try {
+        const p = JSON.parse(t)
+        return p?.detail || p?.error || p?.message || fb
+    } catch {
+        return t.length > 400 ? fb : t
+    }
+}
+
+export default function HelioStorytellerFramer() {
+    const [unlocked, setUnlocked] = React.useState(false)
+    const [showPass, setShowPass] = React.useState(false)
+    const [accessPass, setAccessPass] = React.useState("")
+    const [profile, setProfile] = React.useState<string>(OPTIONS[0])
+    const [input, setInput] = React.useState("")
+    const [messages, setMessages] = React.useState<Message[]>([])
+    const [loading, setLoading] = React.useState(false)
+
+    const scrollRef = React.useRef<HTMLDivElement>(null)
+    const pendingTextRef = React.useRef<string | null>(null)
+
+    const inputRef = React.useRef<HTMLTextAreaElement>(null)
+    const passInputRef = React.useRef<HTMLInputElement>(null)
+
+    const focusTextBox = React.useCallback(() => {
+        window.requestAnimationFrame(() => {
+            const el = inputRef.current
+
+            if (!el || showPass) return
+
+            el.focus({ preventScroll: true })
+
+            const len = el.value.length
+            el.setSelectionRange(len, len)
+        })
+    }, [showPass])
+
+    React.useEffect(() => {
+        scrollRef.current?.scrollTo({
+            top: scrollRef.current.scrollHeight,
+            behavior: "smooth",
+        })
+    }, [messages, loading])
+
+    React.useEffect(() => {
+        focusTextBox()
+    }, [focusTextBox, profile, unlocked, messages.length, loading])
+
+    React.useEffect(() => {
+        if (showPass) {
+            window.requestAnimationFrame(() => {
+                passInputRef.current?.focus({ preventScroll: true })
+            })
+        } else {
+            focusTextBox()
+        }
+    }, [showPass, focusTextBox])
+
+    async function deliverMessage(text: string) {
+        setInput("")
+
+        const next: Message[] = [
+            ...messages,
+            {
+                role: "user",
+                content: text,
+            },
+        ]
+
+        setMessages(next)
+        setLoading(true)
+
+        const ac = new AbortController()
+        const to = window.setTimeout(() => ac.abort(), 120_000)
+
+        try {
+            const res = await fetch(CHAT_URL, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    profile,
+                    messages: next.map((m) => ({
+                        role: m.role,
+                        content: m.content,
+                    })),
+                }),
+                signal: ac.signal,
+            })
+
+            if (!res.ok) {
+                throw new Error(parseBackendError(res.status, await res.text()))
+            }
+
+            const data = (await res.json()) as {
+                reply?: string
+            }
+
+            const reply =
+                (data.reply || "").trim() || "No reply from Storyteller."
+
+            setMessages([
+                ...next,
+                {
+                    role: "assistant",
+                    content: reply,
+                },
+            ])
+        } catch (e) {
+            let err = "Request failed. Try again."
+
+            if (e instanceof Error && e.name === "AbortError") {
+                err = "Timed out."
+            } else if (e instanceof TypeError) {
+                err = `Not reachable (${CHAT_URL}). Check CORS / edge URL.`
+            } else if (e instanceof Error && e.message) {
+                err = e.message
+            }
+
+            setMessages([
+                ...next,
+                {
+                    role: "assistant",
+                    content: err,
+                },
+            ])
+        } finally {
+            clearTimeout(to)
+            setLoading(false)
+            focusTextBox()
+        }
+    }
+
+    async function onSend() {
+        const text = input.trim()
+
+        if (!text) {
+            focusTextBox()
+            return
+        }
+
+        if (!unlocked) {
+            pendingTextRef.current = text
+            setShowPass(true)
+            return
+        }
+
+        await deliverMessage(text)
+    }
+
+    async function confirmPass() {
+        if (!(await unlockAgent(accessPass))) return
+
+        setUnlocked(true)
+        setShowPass(false)
+        setAccessPass("")
+
+        const t = pendingTextRef.current
+        pendingTextRef.current = null
+
+        if (t) {
+            void deliverMessage(t)
+        } else {
+            focusTextBox()
+        }
+    }
+
+    function cancelPass() {
+        setShowPass(false)
+        setAccessPass("")
+        pendingTextRef.current = null
+        focusTextBox()
+    }
+
+    const box: React.CSSProperties = {
+        fontFamily: "system-ui, sans-serif",
+        position: "relative",
+        height: "100%",
+        minHeight: 480,
+        display: "flex",
+        flexDirection: "column",
+        border: "1px solid #e5e5e5",
+        borderRadius: 16,
+        background: "var(--color-surface)",
+        overflow: "hidden",
+    }
+
+    return (
+        <div style={box}>
+            <div
+                style={{
+                    padding: "16px 20px",
+                    borderBottom: "1px solid #f5f5f5",
+                }}
+            >
+                <div
+                    style={{
+                        fontSize: 12,
+                        fontWeight: 600,
+                        color: "#525252",
+                        marginBottom: 8,
+                    }}
+                >
+                    Select Profile
+                </div>
+
+                <div
+                    style={{
+                        display: "flex",
+                        flexWrap: "wrap",
+                        gap: 8,
+                    }}
+                >
+                    {OPTIONS.map((opt) => (
+                        <button
+                            key={opt}
+                            type="button"
+                            onClick={() => {
+                                setProfile(opt)
+                                focusTextBox()
+                            }}
+                            style={{
+                                padding: "6px 12px",
+                                borderRadius: 8,
+                                border: `1px solid ${
+                                    profile === opt ? ACCENT : "#e5e5e5"
+                                }`,
+                                background: profile === opt ? ACCENT : "var(--color-surface)",
+                                color: "#171717",
+                                fontSize: 13,
+                                fontWeight: 600,
+                                cursor: "pointer",
+                            }}
+                        >
+                            {opt}
+                        </button>
+                    ))}
+                </div>
+            </div>
+
+            <div
+                ref={scrollRef}
+                style={{
+                    flex: 1,
+                    overflowY: "auto",
+                    padding: 24,
+                }}
+            >
+                {messages.length === 0 ? (
+                    <p
+                        style={{
+                            color: "#737373",
+                            fontSize: 14,
+                            lineHeight: 1.6,
+                            margin: 0,
+                        }}
+                    >
+                        Describe the virtual character you want to create. For
+                        example: “A stylish, ambitious female character who
+                        shares daily lifestyle stories for a luxury fitness
+                        brand.”
+                    </p>
+                ) : null}
+
+                {messages.map((m, i) => (
+                    <div
+                        key={i}
+                        style={{
+                            display: "flex",
+                            gap: 12,
+                            marginBottom: 20,
+                            flexDirection:
+                                m.role === "user" ? "row-reverse" : "row",
+                        }}
+                    >
+                        <div
+                            style={{
+                                width: 32,
+                                height: 32,
+                                borderRadius: "50%",
+                                flexShrink: 0,
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                fontSize: 14,
+                                background:
+                                    m.role === "user" ? "#171717" : "#f5f5f5",
+                                color:
+                                    m.role === "user"
+                                        ? "var(--color-surface)"
+                                        : ACCENT_ON_LIGHT,
+                                border:
+                                    m.role === "user"
+                                        ? "none"
+                                        : "1px solid #e5e5e5",
+                            }}
+                        >
+                            {m.role === "user" ? "U" : "AI"}
+                        </div>
+
+                        <div
+                            style={{
+                                maxWidth: "85%",
+                                borderRadius: 16,
+                                padding: "14px 18px",
+                                fontSize: 14,
+                                lineHeight: 1.55,
+                                background:
+                                    m.role === "user" ? "#171717" : "#f5f5f5",
+                                color: m.role === "user" ? "var(--color-surface)" : "#262626",
+                                borderTopRightRadius:
+                                    m.role === "user" ? 4 : 16,
+                                borderTopLeftRadius:
+                                    m.role === "assistant" ? 4 : 16,
+                                whiteSpace: "pre-wrap",
+                            }}
+                        >
+                            <AgentMessage text={m.content} role={m.role}/>
+                        </div>
+                    </div>
+                ))}
+
+                {loading ? (
+                    <div
+                        style={{
+                            display: "flex",
+                            gap: 12,
+                        }}
+                    >
+                        <div
+                            style={{
+                                width: 32,
+                                height: 32,
+                                borderRadius: "50%",
+                                background: "#f5f5f5",
+                                border: "1px solid #e5e5e5",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                color: ACCENT_ON_LIGHT,
+                                fontSize: 12,
+                                fontWeight: 700,
+                            }}
+                        >
+                            AI
+                        </div>
+
+                        <div
+                            style={{
+                                background: "#f5f5f5",
+                                borderRadius: 16,
+                                borderTopLeftRadius: 4,
+                                padding: "14px 18px",
+                                fontSize: 14,
+                                color: "#404040",
+                                fontWeight: 600,
+                            }}
+                        >
+                            Thinking…
+                        </div>
+                    </div>
+                ) : null}
+            </div>
+
+            <div
+                style={{
+                    padding: 16,
+                    borderTop: "1px solid #f5f5f5",
+                    background: "var(--color-surface)",
+                }}
+            >
+                <div
+                    style={{
+                        position: "relative",
+                    }}
+                >
+                    <textarea
+                        ref={inputRef}
+                        autoFocus
+                        rows={1}
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        onFocus={(e) => {
+                            const len = e.currentTarget.value.length
+                            e.currentTarget.setSelectionRange(len, len)
+                        }}
+                        onKeyDown={(e) => {
+                            if (e.key === "Enter" && !e.shiftKey) {
+                                e.preventDefault()
+                                void onSend()
+                            }
+                        }}
+                        placeholder="Type your message..."
+                        style={{
+                            width: "100%",
+                            minHeight: 52,
+                            maxHeight: 120,
+                            resize: "none",
+                            boxSizing: "border-box",
+                            padding: "14px 48px 14px 16px",
+                            borderRadius: 12,
+                            border: `1px solid ${ACCENT}`,
+                            outline: "none",
+                            background: "var(--color-surface)",
+                            fontSize: 14,
+                            caretColor: ACCENT_ON_LIGHT,
+                            lineHeight: 1.4,
+                        }}
+                    />
+
+                    <button
+                        type="button"
+                        disabled={loading || !input.trim()}
+                        onClick={() => {
+                            void onSend()
+                        }}
+                        style={{
+                            position: "absolute",
+                            right: 10,
+                            bottom: 10,
+                            width: 36,
+                            height: 36,
+                            borderRadius: 8,
+                            border: "none",
+                            cursor:
+                                loading || !input.trim()
+                                    ? "not-allowed"
+                                    : "pointer",
+                            background:
+                                loading || !input.trim() ? "#e5e5e5" : ACCENT,
+                            color:
+                                loading || !input.trim()
+                                    ? "#a3a3a3"
+                                    : "#0a0a0a",
+                            fontWeight: 700,
+                            fontSize: 16,
+                        }}
+                    >
+                        →
+                    </button>
+                </div>
+            </div>
+
+            {showPass ? (
+                <div
+                    style={{
+                        position: "absolute",
+                        inset: 0,
+                        background: "rgba(0,0,0,0.45)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        zIndex: 50,
+                        borderRadius: 16,
+                    }}
+                >
+                    <div
+                        style={{
+                            background: "var(--color-surface)",
+                            padding: 24,
+                            borderRadius: 14,
+                            display: "flex",
+                            flexDirection: "column",
+                            gap: 12,
+                            minWidth: 280,
+                            boxShadow: "0 12px 40px rgba(0,0,0,0.15)",
+                        }}
+                    >
+                        <input
+                            ref={passInputRef}
+                            type="password"
+                            value={accessPass}
+                            onChange={(e) => setAccessPass(e.target.value)}
+                            onKeyDown={(e) => {
+                                if (e.key === "Enter") {
+                                    e.preventDefault()
+                                    confirmPass()
+                                }
+                            }}
+                            placeholder="Password"
+                            style={{
+                                width: "100%",
+                                padding: "12px 14px",
+                                borderRadius: 10,
+                                border: "1px solid #e5e5e5",
+                                fontSize: 15,
+                                boxSizing: "border-box",
+                                outline: "none",
+                            }}
+                        />
+
+                        <div
+                            style={{
+                                display: "flex",
+                                gap: 8,
+                                justifyContent: "flex-end",
+                            }}
+                        >
+                            <button
+                                type="button"
+                                onClick={cancelPass}
+                                style={{
+                                    padding: "10px 16px",
+                                    borderRadius: 10,
+                                    border: "1px solid #e5e5e5",
+                                    background: "var(--color-surface)",
+                                    fontWeight: 600,
+                                    cursor: "pointer",
+                                }}
+                            >
+                                Cancel
+                            </button>
+
+                            <button
+                                type="button"
+                                onClick={confirmPass}
+                                style={{
+                                    padding: "10px 16px",
+                                    borderRadius: 10,
+                                    border: "none",
+                                    background: ACCENT,
+                                    color: "#0a0a0a",
+                                    fontWeight: 700,
+                                    cursor: "pointer",
+                                }}
+                            >
+                                Continue
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            ) : null}
+        </div>
+    )
+}

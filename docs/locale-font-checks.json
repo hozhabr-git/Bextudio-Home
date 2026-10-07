@@ -1,0 +1,879 @@
+{
+  "checkedAt": "2026-10-05",
+  "rtl": [
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/services",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/works",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/contact",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/image-generator",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/video-generator",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/campaign-maker",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/storyteller",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/avatar",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/detail-design",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/secure-chat",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/bexlogix",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/digital-twin",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/blog",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/test",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/blog/what-is-a-brand-brain",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/blog/how-ai-changes-brand-strategy-workflows",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/blog/from-brand-guidelines-to-living-design-systems",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/authentication",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/pricing",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agent-store",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/form",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/services",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/works",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/contact",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/image-generator",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/video-generator",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/campaign-maker",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/storyteller",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/avatar",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/detail-design",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/secure-chat",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/bexlogix",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/digital-twin",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/blog",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/test",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/blog/what-is-a-brand-brain",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/blog/how-ai-changes-brand-strategy-workflows",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/blog/from-brand-guidelines-to-living-design-systems",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/authentication",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/pricing",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agent-store",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/form",
+      "textFontMismatches": 0,
+      "width": 320
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/services",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/works",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/contact",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/image-generator",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/video-generator",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/campaign-maker",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/storyteller",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/avatar",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/detail-design",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/secure-chat",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/bexlogix",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agents/digital-twin",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/blog",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/test",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/blog/what-is-a-brand-brain",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/blog/how-ai-changes-brand-strategy-workflows",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/blog/from-brand-guidelines-to-living-design-systems",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/authentication",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/pricing",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/agent-store",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "Estedad, \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/fa/form",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/services",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/works",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/contact",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/image-generator",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/video-generator",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/campaign-maker",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/storyteller",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/avatar",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/detail-design",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/secure-chat",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/bexlogix",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agents/digital-twin",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/blog",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/test",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/blog/what-is-a-brand-brain",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/blog/how-ai-changes-brand-strategy-workflows",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/blog/from-brand-guidelines-to-living-design-systems",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/authentication",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/pricing",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/agent-store",
+      "textFontMismatches": 0,
+      "width": 1440
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans Arabic\", \"Noto Sans Arabic\", Inter, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "path": "/ar/form",
+      "textFontMismatches": 0,
+      "width": 1440
+    }
+  ],
+  "latin": [
+    {
+      "dir": "ltr",
+      "lang": "en",
+      "overflow": false,
+      "path": "/",
+      "textFonts": [
+        "sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "Kreon, \"Kreon Placeholder\", serif"
+      ],
+      "width": 320
+    },
+    {
+      "dir": "ltr",
+      "lang": "en",
+      "overflow": false,
+      "path": "/services",
+      "textFonts": [
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ],
+      "width": 320
+    },
+    {
+      "dir": "ltr",
+      "lang": "en",
+      "overflow": false,
+      "path": "/contact",
+      "textFonts": [
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ],
+      "width": 320
+    },
+    {
+      "dir": "ltr",
+      "lang": "en",
+      "overflow": false,
+      "path": "/blog/what-is-a-brand-brain",
+      "textFonts": [
+        "Inter, Arial, sans-serif"
+      ],
+      "width": 320
+    },
+    {
+      "dir": "ltr",
+      "lang": "tr",
+      "overflow": false,
+      "path": "/tr/",
+      "textFonts": [
+        "sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "Kreon, \"Kreon Placeholder\", serif"
+      ],
+      "width": 320
+    },
+    {
+      "dir": "ltr",
+      "lang": "tr",
+      "overflow": false,
+      "path": "/tr/services",
+      "textFonts": [
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ],
+      "width": 320
+    },
+    {
+      "dir": "ltr",
+      "lang": "tr",
+      "overflow": false,
+      "path": "/tr/contact",
+      "textFonts": [
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ],
+      "width": 320
+    },
+    {
+      "dir": "ltr",
+      "lang": "tr",
+      "overflow": false,
+      "path": "/tr/blog/what-is-a-brand-brain",
+      "textFonts": [
+        "Inter, Arial, sans-serif"
+      ],
+      "width": 320
+    },
+    {
+      "dir": "ltr",
+      "lang": "en",
+      "overflow": false,
+      "path": "/",
+      "textFonts": [
+        "sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "Kreon, \"Kreon Placeholder\", serif"
+      ],
+      "width": 1440
+    },
+    {
+      "dir": "ltr",
+      "lang": "en",
+      "overflow": false,
+      "path": "/services",
+      "textFonts": [
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ],
+      "width": 1440
+    },
+    {
+      "dir": "ltr",
+      "lang": "en",
+      "overflow": false,
+      "path": "/contact",
+      "textFonts": [
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ],
+      "width": 1440
+    },
+    {
+      "dir": "ltr",
+      "lang": "en",
+      "overflow": false,
+      "path": "/blog/what-is-a-brand-brain",
+      "textFonts": [
+        "Inter, Arial, sans-serif"
+      ],
+      "width": 1440
+    },
+    {
+      "dir": "ltr",
+      "lang": "tr",
+      "overflow": false,
+      "path": "/tr/",
+      "textFonts": [
+        "sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "Kreon, \"Kreon Placeholder\", serif"
+      ],
+      "width": 1440
+    },
+    {
+      "dir": "ltr",
+      "lang": "tr",
+      "overflow": false,
+      "path": "/tr/services",
+      "textFonts": [
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ],
+      "width": 1440
+    },
+    {
+      "dir": "ltr",
+      "lang": "tr",
+      "overflow": false,
+      "path": "/tr/contact",
+      "textFonts": [
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ],
+      "width": 1440
+    },
+    {
+      "dir": "ltr",
+      "lang": "tr",
+      "overflow": false,
+      "path": "/tr/blog/what-is-a-brand-brain",
+      "textFonts": [
+        "Inter, Arial, sans-serif"
+      ],
+      "width": 1440
+    }
+  ]
+}

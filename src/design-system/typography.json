@@ -1,0 +1,82 @@
+{
+  "Display/Hero": {
+    "desktop": 72,
+    "tablet": 64,
+    "mobile": 40,
+    "weight": 600,
+    "lineHeight": 0.95,
+    "tracking": "-.04em"
+  },
+  "Heading/H1": {
+    "desktop": 64,
+    "tablet": 48,
+    "mobile": 40,
+    "weight": 600,
+    "lineHeight": 1.2,
+    "tracking": "-.04em"
+  },
+  "Heading/H2": {
+    "desktop": 48,
+    "tablet": 40,
+    "mobile": 32,
+    "weight": 700,
+    "lineHeight": 1.2,
+    "tracking": "-.02em"
+  },
+  "Heading/H3": {
+    "desktop": 36,
+    "tablet": 32,
+    "mobile": 28,
+    "weight": 600,
+    "lineHeight": 1.2,
+    "tracking": "-.02em"
+  },
+  "Body/Large": {
+    "desktop": 20,
+    "tablet": 20,
+    "mobile": 18,
+    "weight": 400,
+    "lineHeight": 1.5,
+    "tracking": "-.01em"
+  },
+  "Body/Default": {
+    "desktop": 16,
+    "tablet": 16,
+    "mobile": 16,
+    "weight": 400,
+    "lineHeight": 1.6,
+    "tracking": "-.01em"
+  },
+  "Body/Small": {
+    "desktop": 15,
+    "tablet": 15,
+    "mobile": 15,
+    "weight": 400,
+    "lineHeight": 1.55,
+    "tracking": "-.005em"
+  },
+  "Caption/Default": {
+    "desktop": 13,
+    "tablet": 13,
+    "mobile": 13,
+    "weight": 500,
+    "lineHeight": 1.2,
+    "tracking": "0"
+  },
+  "Nav/Default": {
+    "desktop": 14,
+    "tablet": 14,
+    "mobile": 14,
+    "weight": 500,
+    "lineHeight": 1.6,
+    "tracking": "-.01em"
+  },
+  "Button/Default": {
+    "desktop": 16,
+    "tablet": 16,
+    "mobile": 16,
+    "weight": 500,
+    "lineHeight": 1,
+    "tracking": "0"
+  }
+}

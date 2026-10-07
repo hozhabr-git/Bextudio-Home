@@ -1,0 +1,865 @@
+{
+  "checkedAt": "2026-10-05",
+  "checks": [
+    {
+      "lang": "fa",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Binghatti"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Mansory"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Technogym"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Coffino"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "IOPn"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Royal Joy"
+        }
+      ],
+      "width": 320
+    },
+    {
+      "lang": "ar",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Binghatti"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Mansory"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Technogym"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Coffino"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "IOPn"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Royal Joy"
+        }
+      ],
+      "width": 320
+    },
+    {
+      "lang": "en",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        }
+      ],
+      "width": 320
+    },
+    {
+      "lang": "tr",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        }
+      ],
+      "width": 320
+    },
+    {
+      "lang": "fa",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Binghatti"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Mansory"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Technogym"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Coffino"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "IOPn"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Royal Joy"
+        }
+      ],
+      "width": 809
+    },
+    {
+      "lang": "ar",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Binghatti"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Mansory"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Technogym"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Coffino"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "IOPn"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Royal Joy"
+        }
+      ],
+      "width": 809
+    },
+    {
+      "lang": "en",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        }
+      ],
+      "width": 809
+    },
+    {
+      "lang": "tr",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        }
+      ],
+      "width": 809
+    },
+    {
+      "lang": "fa",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Binghatti"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Mansory"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Technogym"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Coffino"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "IOPn"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Royal Joy"
+        }
+      ],
+      "width": 810
+    },
+    {
+      "lang": "ar",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Binghatti"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Mansory"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Technogym"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Coffino"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "IOPn"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Royal Joy"
+        }
+      ],
+      "width": 810
+    },
+    {
+      "lang": "en",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        }
+      ],
+      "width": 810
+    },
+    {
+      "lang": "tr",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        }
+      ],
+      "width": 810
+    },
+    {
+      "lang": "fa",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Binghatti"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Mansory"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Technogym"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Coffino"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "IOPn"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Royal Joy"
+        }
+      ],
+      "width": 1439
+    },
+    {
+      "lang": "ar",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Binghatti"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Mansory"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Technogym"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Coffino"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "IOPn"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Royal Joy"
+        }
+      ],
+      "width": 1439
+    },
+    {
+      "lang": "en",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        }
+      ],
+      "width": 1439
+    },
+    {
+      "lang": "tr",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        }
+      ],
+      "width": 1439
+    },
+    {
+      "lang": "fa",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Binghatti"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Mansory"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Technogym"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Coffino"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "IOPn"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Royal Joy"
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "lang": "ar",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Binghatti"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Mansory"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Technogym"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Coffino"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "IOPn"
+        },
+        {
+          "alignment": "start",
+          "direction": "rtl",
+          "latinDirection": "ltr",
+          "latinIsolate": "Royal Joy"
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "lang": "en",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "lang": "tr",
+      "overflow": false,
+      "titles": [
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        },
+        {
+          "alignment": "start",
+          "direction": "ltr",
+          "latinDirection": null,
+          "latinIsolate": null
+        }
+      ],
+      "width": 1440
+    }
+  ]
+}
